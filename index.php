@@ -11,13 +11,9 @@
 		<div class="container">
 			<div class="header">
 			</div>
-			
-			<div class="menu">
-				<a href="#"><div class="menu-item"><img class="menu" src="./images/home_icon.png" alt="Strona Główna"/>STRONA GŁÓWNA</div></a>
-				<a href="#"><div class="menu-item"><img class="menu" src="./images/offer_icon.png" alt="Oferta"/>OFERTA</div></a>
-				<a href="#"><div class="menu-item"><img class="menu" src="./images/reservation_icon.png" alt="Rezerwacje"/>REZERWACJE</div></a>
-				<a href="#"><div class="menu-item"><img class="menu" src="./images/contact_icon.png" alt="Kontakt"/>KONTAKT</div></a>
-			</div>
+			<?php
+				include('./include/menu.php');
+			?>
 			
 			<div class="content">
 			<h1>Strona Główna</h1>
@@ -29,20 +25,9 @@
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 			</div>
 			
-			<div class="footer">
-				<div class="footer-item">
-				<h2>Informacje o hotelu</h2>
-				<p class="footer"><img class="footer" src="./images/adress_icon.png" alt="Adres"/>ul. Nieznana 22, 42-200 Częstochowa, Polska</p>
-				<p class="footer"><img class="footer" src="./images/phone_icon.png" alt="Telefon"/>(+48) 888 888 888, 34 3 680 900</p>
-				<p class="footer"><img class="footer" src="./images/mail_icon.png" alt="Mail"/><a class="mail" href="mailto:kontakt@naszhotel.czest.pl">kontakt@naszhotel.czest.pl</a></p>
-				</div>
-				<div class="separator"></div>
-				<div class="footer-item">
-				<h2>Wykonanie</h2>
-				<p class="footer">Strona wykonana na zaliczenie przedmiotu “Projekt zespołowy” przez:<br/>
-				Agnieszkę Jarzę, Edytę Juszczyk oraz Pawła Franasa</p>
-				</div>
-			</div>
+			<?php
+				include('./include/footer.php');
+			?>
 		</div>
 	</body>
 </html>
