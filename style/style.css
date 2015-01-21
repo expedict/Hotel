@@ -125,12 +125,6 @@ h2 {
 	margin-left: 20px;
 }
 
-h3 {
-	font-size: 28px;
-	color: black;
-	font-weight: 100;
-}
-
 hr {
 	margin-top: -10px;
 	height: 8px;
@@ -157,7 +151,7 @@ p.footer {
 	margin-left: 20px;
 }
 
-input[type="text"],input[type="date"],textarea{
+input[type="text"],textarea{
 	vertical-align: top;
 	border: 1px solid #C3C3C3;
 	display: block;
