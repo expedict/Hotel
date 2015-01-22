@@ -151,7 +151,7 @@ p.footer {
 	margin-left: 20px;
 }
 
-input[type="text"],textarea{
+input[type="text"],textarea,select{
 	vertical-align: top;
 	border: 1px solid #C3C3C3;
 	display: block;
@@ -178,11 +178,39 @@ input[type="text"].phone{
 	background-image: url('../images/phone.png');
 }
 
+input[type="text"].phone_2{
+	background-image: url('../images/phone.png');
+	margin-left: 0px;
+	width: 150px;
+}
+
+input[type="text"].name_2{
+	background-image: url('../images/user.png');
+	margin-left: 0px;
+	width: 150px;
+}
+
+input[type="text"].email_2{
+	background-image: url('../images/mail.png');
+	margin-left: 0px;
+	width: 150px;
+}
+
+input[type="text"].data{
+	width: 100px;
+	margin-left: 0;
+}
+
 textarea.question{
 	width: 500px;
 	height: 200px;
 	padding-top: 15px;
 	background-image: url('../images/question.png');
+}
+
+select.type{
+	margin-left: 0px;
+	width: 155px;
 }
 
 button[type="submit"]{
@@ -201,4 +229,8 @@ button[type="submit"]{
 
 button[type="submit"]:hover{
 	background-color: #00c786;
+}
+
+table{
+	margin: 0 auto;
 }
